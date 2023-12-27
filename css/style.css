@@ -112,3 +112,64 @@ nav{
 .box h4 a:hover{
     text-decoration: underline;
 }
+.box img:hover{
+    transform: scale(150%);
+}
+#newsletter{
+    padding: 40px 0;
+    background-image:linear-gradient(black blue white) ;
+}
+#newsletter form{
+    display: block;
+    text-align: center;
+}
+#newsletter input[type="text"]{
+    padding: 10px 5px;
+    width: 250px;
+    border: none;
+    outline: none;
+}
+#newsletter input[type=submit]{
+    padding: 10px;
+    background-color: red;
+    cursor: pointer;
+    color: white;
+}
+#newsletter h5{
+    color: rebeccapurple;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 10px
+    ;
+}
+footer{
+    padding: 30px 0;
+}
+.fboxes{
+    display: flex;
+}
+.fbox{
+    width: 24%;
+}
+.fbox h6{
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
+    color: black;
+}
+.fbox ul{
+    list-style-type: none;
+}
+.fbox ul li{
+    border-bottom: 1px dotted black;
+    padding: 5px 0;
+}
+.fbox ul li a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: red;
+}
+.fbox ul li a:hover{
+    color:steelblue;
+}
